@@ -3,10 +3,10 @@ from linkedin import linkedin # pip install python-linkedin
 # Define CONSUMER_KEY, CONSUMER_SECRET,
 # USER_TOKEN, and USER_SECRET from the credentials
 # provided in your LinkedIn application
-CONSUMER_KEY = '75ucap9az7urp8'
-CONSUMER_SECRET = 'ZfyZ2nA1SEc8RIow'
-USER_TOKEN = '7ace1235-cc50-4c82-9155-dd3b529ae5e4'
-USER_SECRET = 'fb15ff0b-157d-4810-b905-40a53ca7a4d1'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+USER_TOKEN = ''
+USER_SECRET = ''
 RETURN_URL = 'http://localhost:3000' # Not required for developer authentication
 # Instantiate the developer authentication class
 auth = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER_SECRET,USER_TOKEN, USER_SECRET,RETURN_URL,permissions=linkedin.PERMISSIONS.enums.values())
